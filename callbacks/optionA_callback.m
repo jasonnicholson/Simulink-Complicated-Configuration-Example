@@ -1,4 +1,4 @@
-function optionA(thisBlock)
+function optionA_callback(thisBlock)
 % Specific function to configure the mask based on option A
 %
 %   optionA(thisBlock)
