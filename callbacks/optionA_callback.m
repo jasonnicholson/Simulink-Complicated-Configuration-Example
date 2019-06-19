@@ -43,7 +43,7 @@ catch exception
 end
 
 %% call option B callback
-optionB(thisBlock);
+optionB_callback(thisBlock);
 
 
 end % end function

@@ -1,4 +1,4 @@
-function isOptionCenabled(thisBlock)
+function optionCisEnabled_callback(thisBlock)
 % Specific function to activate option C
 %
 %   optionA(thisBlock)

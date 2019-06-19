@@ -1,4 +1,4 @@
-function optionB(thisBlock)
+function optionB_callback(thisBlock)
 % Specific function to configure the mask based on option B
 %
 %   optionB(thisBlock)
@@ -81,7 +81,7 @@ catch exception
     betterSimulinkExceptions(exception)
 end
 %% Call option D callback
-optionD(thisBlock);
+optionD_callback(thisBlock);
 
 end
 
