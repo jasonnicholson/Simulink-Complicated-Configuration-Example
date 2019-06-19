@@ -10,7 +10,7 @@ try
     % breaks this code. Limiting how far down into the model we reach keeps
     % the damage of renaming to a minimum this it is easier to update/fix.
     optionAactiveSubsystemPath = sprintf('%s/Option %s', optionAblockPath, optionA);
-    set_param(optionAactiveSubsystemPath, 'optionB', optionB);
+    set_param(optionAactiveSubsystemPath, 'optionB', optionB, 'optionC', num2str(optionC,16));
 catch exception
     betterSimulinkExceptions(exception);
 end
