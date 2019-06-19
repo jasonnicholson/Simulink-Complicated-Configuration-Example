@@ -14,3 +14,12 @@ try
 catch exception
     betterSimulinkExceptions(exception);
 end
+
+%% work around to fix dependency analysis
+% TODO remove this once depdency analysis is fixed.
+optionA = eval('optionA');
+optionB = eval('optionB');
+optionC = eval('optionC');
+optionD = eval('optionD');
+optionE = eval('optionE');
+optionF = eval('optionF');

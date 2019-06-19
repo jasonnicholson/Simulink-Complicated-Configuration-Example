@@ -20,7 +20,7 @@ try
     % Get the current block and mask
     thisMask = Simulink.Mask.get(thisBlock);
     
-    % configure option F
+    % configure option E
     optionEparameter = thisMask.getParameter('optionE');
     switch optionDvalueNumeric
         case num2cell(13:27)
@@ -35,7 +35,7 @@ try
             optionEparameter.TypeOptions = options;
         otherwise
             optionEparameter.TypeOptions = {'none'};
-            error('Unable to configure Option F. This is not normal. There is probably a bug. Did you add a new option?');
+            error('Unable to configure Option E. This is not normal. There is probably a bug. Did you add a new option?');
     end
     
     % configure option F
@@ -56,7 +56,7 @@ try
             optionFparameter.TypeOptions = options;
         otherwise
             optionEparameter.TypeOptions = {'none'};
-            error('Unable to configure Option G. This is not normal. There is probably a bug. Did you add a new option?');
+            error('Unable to configure Option F. This is not normal. There is probably a bug. Did you add a new option?');
     end
 catch exception
     betterSimulinkExceptions(exception)
